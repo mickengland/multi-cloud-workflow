@@ -1,0 +1,8 @@
+---
+- hosts: all
+  remote_user: ubuntu
+  sudo: yes
+  connection: local
+  roles:
+    - geerlingguy.java
+    - avanov.jenkins
